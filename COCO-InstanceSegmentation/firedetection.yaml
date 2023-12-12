@@ -1,0 +1,5 @@
+_BASE_: "../Mask-RCNN-FPN.yaml"
+MODEL:
+  WEIGHTS: "./output/fire/train/model_final.pth"
+  ROI_HEADS:
+     NUM_CLASSES: 2
